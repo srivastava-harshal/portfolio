@@ -1,6 +1,5 @@
 import React from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
-import { AnimatePresence } from 'framer-motion';
 
 import Home from './Home';
 import About from './About';
@@ -10,6 +9,7 @@ import Contact from './Contact';
 
 const AnimatedRoutes = () => {
   const location = useLocation();
+
   return (
     <Routes location={location} key={location.pathname}>
       <Route exact path="/" element={<Home />} />

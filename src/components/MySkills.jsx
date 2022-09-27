@@ -45,7 +45,7 @@ const MySkills = () => {
           <div className="my-skills-right">
             <div className="skills-header">
               I know I cannot quantify my skills, but this does look great on a
-              page. Right?!
+              page. Right?
             </div>
             <div>
               <p className="progressBar-header">HTML</p>
