@@ -49,6 +49,10 @@ h1 {
   gap: 10px;
 }
 
+.message {
+  height: 100px;
+}
+
 .name,
 .email,
 .subject,
@@ -68,7 +72,7 @@ h1 {
   letter-spacing: 5px;
   border: 1px solid aqua;
   cursor: pointer;
-  margin: 0 15px;
+  /* margin: 0 15px; */
 }
 
 .contact-button-2:hover {
@@ -79,6 +83,7 @@ h1 {
 .contact-bottom {
   flex: 1;
   display: flex;
+  gap: 20px;
 }
 
 .contact-bottom-top {
@@ -90,7 +95,7 @@ h1 {
 }
 
 .map {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .map-image {

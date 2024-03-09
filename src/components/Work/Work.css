@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   padding: 20px 30px;
+  padding-bottom: 0;
   gap: 20px;
   /* color: white; */
 }
@@ -25,7 +26,7 @@
 
 .work-header .content {
   max-width: 1200px;
-  font-size: clamp(1.6rem, 1.5rem, 2rem);
+  font-size: 1.1rem;
   text-align: start;
 }
 
@@ -41,6 +42,8 @@
   display: flex;
   justify-content: space-evenly;
   gap: 10px;
+  border-bottom: 1px solid silver;
+  padding-bottom: 20px;
 }
 
 .project-left {
@@ -65,7 +68,7 @@
   flex-wrap: wrap;
   gap: 10px;
   align-items: center;
-  font-size: clamp(1.6rem, 1.5rem, 2rem);
+  font-size: 1.1rem;
   font-weight: 300;
   line-height: 1.5;
   padding: 0 0 0 20px;
@@ -76,7 +79,7 @@
   color: white;
   border-radius: 15px;
   padding: 2px 10px;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 @media screen and (max-width: 768px) {
@@ -88,5 +91,14 @@
 @media screen and (min-width: 1024px) and (max-width: 1350px) {
   .work {
     padding: 20px 100px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .project-description {
+    font-size: clamp(1rem, 1.5rem, 2rem);
+  }
+  .work-header .content {
+    font-size: clamp(1rem, 1.5rem, 2rem);
   }
 }

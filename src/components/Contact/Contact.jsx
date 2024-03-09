@@ -17,12 +17,12 @@ const Contact = () => {
         </div>
         <div className="contact-bottom">
           <div className="contact-bottom-top">
-            <p className="content">
+            {/* <p className="content">
               I am interested in internship and job opportunities as well,
               especially on projects which will enhance my knowledge and skill
               set. However, if you have any other request or question, don't
               hesitate to use the form.
-            </p>
+            </p> */}
             <form className="form">
               <div className="name-email">
                 <input className="name" type="text" placeholder="Name" />

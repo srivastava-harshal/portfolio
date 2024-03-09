@@ -42,15 +42,24 @@
 }
 
 .my-skills-content {
-  font-size: clamp(1rem, 1.5rem, 2rem);
+  font-size: 1.1rem;
   line-height: 1.5;
   text-align: start;
 }
 
 .skills-header {
   color: #000;
-  font-size: clamp(1rem, 1.5rem, 2rem);
+  font-size: 1.1rem;
   margin-bottom: 10px;
+}
+
+@media screen and (min-width: 1500px) {
+  .my-skills-content {
+    font-size: clamp(1rem, 1.5rem, 2rem);
+  }
+  .skills-header {
+    font-size: clamp(1rem, 1.5rem, 2rem);
+  }
 }
 
 .progressBar-header {
