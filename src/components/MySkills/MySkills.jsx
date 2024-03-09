@@ -50,7 +50,7 @@ const MySkills = () => {
             </div>
             <div>
               <p className="progressBar-header">HTML</p>
-              <ProgressBar bgcolor="#08fdd8" progress="90" />
+              <ProgressBar bgcolor="#08fdd8" progress="95" />
             </div>
             <div>
               <p className="progressBar-header">CSS</p>
@@ -58,11 +58,11 @@ const MySkills = () => {
             </div>
             <div>
               <p className="progressBar-header">JavaScript</p>
-              <ProgressBar bgcolor="rgb(210, 108, 213)" progress="80" />
+              <ProgressBar bgcolor="rgb(210, 108, 213)" progress="97.5" />
             </div>
             <div>
               <p className="progressBar-header">ReactJS</p>
-              <ProgressBar bgcolor="rgb(173, 75, 26)" progress="85" />
+              <ProgressBar bgcolor="rgb(173, 75, 26)" progress="95" />
             </div>
           </div>
         </div>
