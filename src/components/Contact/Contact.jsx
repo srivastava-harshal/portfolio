@@ -1,18 +1,22 @@
 import React from 'react';
-import { motion } from 'framer-motion';
+import './Contact.css';
+// import { motion } from 'framer-motion';
 
 const Contact = () => {
   return (
     <div className="container">
-      <motion.div
+      {/* <motion.div
         className="right"
         initial={{ x: 300, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         exit={{ x: -300, opacity: 0 }}
-      >
-        <div className="contact">
-          <div className="contact-left">
-            <h1 className="header">Contact Me!</h1>
+      > */}
+      <div className="contact">
+        <div className="contact-top">
+          <h1 className="header">Contact Me!</h1>
+        </div>
+        <div className="contact-bottom">
+          <div className="contact-bottom-top">
             <p className="content">
               I am interested in internship and job opportunities as well,
               especially on projects which will enhance my knowledge and skill
@@ -34,10 +38,10 @@ const Contact = () => {
                   placeholder="Message"
                 />
               </div>
+              <button className="contact-button-2">Send Message</button>
             </form>
-            <button className="contact-button-2">Send Message</button>
           </div>
-          <div className="contact-right">
+          <div className="contact-bottom-bottom">
             <div className="map">
               <a
                 target="_blank"
@@ -52,7 +56,8 @@ const Contact = () => {
             </div>
           </div>
         </div>
-      </motion.div>
+      </div>
+      {/* </motion.div> */}
     </div>
   );
 };
