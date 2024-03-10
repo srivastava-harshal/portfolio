@@ -19,28 +19,43 @@ const MySkills = () => {
         <div className="my-skills-bottom">
           <div className="my-skills-bottom-left">
             <p className="my-skills-content">
-              Since beginning of my journey as a frontend developer nearly 3
-              months ago, I have developed some basic apps which have given me a
-              good insight of the web development world. The main area of my
-              expertise is frontend development, HTML, CSS, JavaScript, ReactJS,
-              building small and medium web apps, features and coding
-              interactive layouts. I am into creating responsive websites that
-              are fast, easy to use and built following the best practices.
+              I possess a robust set of problem-solving skills, exemplified by
+              my ability to dissect intricate issues and develop effective
+              solutions. My approach involves critical thinking, coupled with a
+              knack for troubleshooting, enabling me to navigate challenges
+              adeptly. My track record showcases a talent for identifying root
+              causes and implementing strategic fixes. Furthermore, as a
+              collaborative team player, I bring excellent interpersonal skills
+              to the table. I've successfully contributed to diverse teams,
+              fostering positive and inclusive work environments. My
+              communication skills shine in cross-functional settings,
+              facilitating effective collaboration towards shared objectives.
             </p>
             <p className="my-skills-content">
-              Well organized person, problem solver with attention to details.
-              Possess a Bachelors of Technology degree in Electrical and
-              Electronics and have developed a keen interest in Web
-              Devlopment.Being a sincere and punctual individual, my primary
-              focus is always on the given task and to complete it before the
-              deadline. Formerly I have led a team of 10 members as an
-              Electrical Engineer, where my task was quality assurance.
+              My proficiency extends to writing scalable and reusable code,
+              meticulously crafted in adherence to industry best practices. I
+              prioritize code quality, implementing thorough testing and
+              engaging in comprehensive code reviews. The application of design
+              patterns and architectural principles is integral to my
+              development process, ensuring the creation of maintainable
+              software. I am committed to maintaining coding standards,
+              employing version control systems, and actively participating in
+              collaborative development workflows. This dedication to coding
+              excellence reflects my adaptability to emerging technologies and
+              industry trends.
             </p>
             <p className="my-skills-content">
-              P.S - Appart from the technologies mentioned above, currently I am
-              learning the backnend technologies like NodeJS, Express, MongoDB,
-              API and Restful API as well, which will help me become a more
-              complete web developer.
+              Documenting solutions is a key aspect of my skill set,
+              encompassing code, processes, and comprehensive technical
+              documentation. This commitment enhances knowledge transfer within
+              the team, contributing to a more informed and efficient work
+              environment. I exhibit leadership qualities by taking initiative
+              in guiding and mentoring team members. My ability to lead
+              discussions, make collaborative decisions, and foster a positive
+              team culture underscores my leadership capabilities. Finally, my
+              time management skills and adaptability stand out, ensuring the
+              timely delivery of high-quality solutions, even in the face of
+              changing requirements and evolving project scopes.
             </p>
           </div>
           <div className="my-skills-bottom-right">

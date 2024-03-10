@@ -30,8 +30,11 @@ const Work = () => {
                 <div className="project-right">
                   <p className="project-description">
                     {project.description} Technology Used:{' '}
-                    {project.techUsed.map(el => (
-                      <span className="project-description-pills"> {el} </span>
+                    {project.techUsed.map((el, index) => (
+                      <span key={index} className="project-description-pills">
+                        {' '}
+                        {el}{' '}
+                      </span>
                     ))}{' '}
                   </p>
                 </div>

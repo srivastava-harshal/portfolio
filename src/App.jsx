@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
-import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const pages = [
   {
@@ -52,7 +52,7 @@ const App = () => {
           {/* <div className="side-blank"></div> */}
           {pages.map(page => {
             return (
-              <div className="navbar_item">
+              <div className="navbar_item" key={page.key}>
                 <Link
                   style={{ textDecoration: 'none' }}
                   className={`navbar_item_link ${
