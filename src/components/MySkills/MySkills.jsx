@@ -79,9 +79,23 @@ const MySkills = () => {
               <p className="progressBar-header">ReactJS</p>
               <ProgressBar bgcolor="rgb(173, 75, 26)" progress="95" />
             </div>
+            <div>
+              <p className="progressBar-header">NodeJS</p>
+              <ProgressBar bgcolor="#41B3A3" progress="75" />
+            </div>
+            <div>
+              <p className="progressBar-header">ExpressJS</p>
+              <ProgressBar bgcolor="#C38D9E" progress="75" />
+            </div>
           </div>
         </div>
-        <p className="footer">Visit my LinkedIn profile or just contact me!</p>
+        <a
+          style={{ textDecoration: 'none' }}
+          href="https://www.linkedin.com/in/harshal-srivastava/"
+          target="_blank"
+        >
+          <p className="footer">Visit my LinkedIn profile!</p>
+        </a>
       </div>
       {/* </motion.div> */}
     </div>

@@ -21,6 +21,9 @@ const Home = () => {
         <div className="home-container">
           <div className="home-wrapper">
             <div className="home-right">
+              <div className="home-empty-container">
+                If you are wondering, this is just ICE TEA!
+              </div>
               <div className="about-right-image">
                 <img
                   className="about-image"

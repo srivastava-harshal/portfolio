@@ -1,8 +1,11 @@
 import React from 'react';
 import './About.css';
+import { useNavigate } from 'react-router';
 // import { motion } from 'framer-motion';
 
 const About = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="container">
       {/* <motion.div
@@ -71,7 +74,9 @@ const About = () => {
               </p>
             </div>
           </div>
-          <p className="footer">Let's make something special.</p>
+          <p onClick={() => navigate('/contact')} className="footer">
+            Let's make something special.
+          </p>
         </div>
       </div>
       {/* </motion.div> */}
