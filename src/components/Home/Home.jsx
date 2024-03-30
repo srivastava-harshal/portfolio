@@ -21,13 +21,13 @@ const Home = () => {
         <div className="home-container">
           <div className="home-wrapper">
             <div className="home-right">
-              <div className="home-empty-container">
+              {/* <div className="home-empty-container">
                 If you are wondering, this is just ICE TEA!
-              </div>
+              </div> */}
               <div className="about-right-image">
                 <img
                   className="about-image"
-                  src="https://i.ibb.co/HHqrB1F/IMG-0531.jpg"
+                  src="https://i.ibb.co/MSDb6VY/Profile.webp"
                   alt="image"
                 />
               </div>
