@@ -175,23 +175,19 @@ const Contact = () => {
               </button>
             </div>
             <div className="call-button">
-              <span className="call-button-text">
-                Call me at{' '}
-                <a href="tel:07080093213" className="call-button-anchor">
-                  7080093213
-                </a>
-              </span>
+              <a href="tel:07080093213" className="call-button-anchor">
+                <span className="call-button-text">Call me at 7080093213</span>
+              </a>
             </div>
             <div className="mail-button">
-              <span className="mail-button-text">
-                Email me at{' '}
-                <a
-                  href="mailto:harshalsrivastava07@gmail.com"
-                  className="mail-button-anchor"
-                >
-                  harshalsrivastava07@gmail.com
-                </a>
-              </span>
+              <a
+                href="mailto:harshalsrivastava07@gmail.com"
+                className="mail-button-anchor"
+              >
+                <span className="mail-button-text">
+                  Email me at harshalsrivastava07@gmail.com
+                </span>
+              </a>
             </div>
           </div>
           <div className="contact-bottom-bottom">
