@@ -38,7 +38,7 @@ const Home = () => {
                 I'm <span className="home-name-initial">H</span>arshal,
               </div>
               <div className="header-content">web developer</div>
-              <div className="sub-header-content">Front End Devloper</div>
+              <div className="sub-header-content">Front End Developer</div>
               <div
                 className="contact-button-container"
                 onClick={() => navigate('/contact')}
