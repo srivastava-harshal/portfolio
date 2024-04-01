@@ -94,8 +94,46 @@ h1 {
   flex: 1;
 }
 
-.map {
-  /* text-align: center; */
+.call-button,
+.mail-button {
+  margin: 10px 0;
+  max-width: 320px;
+  padding: 10px 15px;
+  background-color: rgb(32, 31, 31);
+  color: aqua;
+  letter-spacing: 2px;
+  border: 1px solid aqua;
+  cursor: pointer;
+  text-align: center;
+}
+
+.call-button:hover {
+  background-color: #08fdd8;
+  color: #2b2b2b;
+}
+
+.call-button:hover .call-button-anchor {
+  color: #2b2b2b;
+}
+
+.mail-button:hover {
+  background-color: #08fdd8;
+  color: #2b2b2b;
+}
+
+.mail-button:hover .mail-button-anchor {
+  color: #2b2b2b;
+}
+
+.call-button-text,
+.mail-button-text {
+  margin: 0;
+}
+
+.call-button-anchor,
+.mail-button-anchor {
+  text-decoration: none;
+  color: aqua;
 }
 
 .map-image {
